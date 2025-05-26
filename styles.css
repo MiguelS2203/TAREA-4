@@ -1,0 +1,93 @@
+/* Selector de tipo */
+body {
+  background-color: #f0f2f5;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Selector de clase */
+.card {
+  background-color: #ffffff;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector de ID */
+#nombre {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  width: 150px;
+  height: 150px;
+}
+
+/* Estilos para la sección de biografía */
+.bio {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.bio h2 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Estilos para la sección de habilidades */
+.skills {
+  margin: 20px 0;
+}
+
+.skills h2 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Estilos para el enlace social */
+.social-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #a71ea7;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Pseudo-clase :hover */
+.social-link:hover {
+  background-color: #0056b3;
+}
