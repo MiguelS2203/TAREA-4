@@ -12,7 +12,7 @@ body {
 /* Selector de clase */
 .card {
   background-color: #ffffff;
-  border: 2px solid #007bff;
+  border: 2px solid #a71ea7;
   border-radius: 10px;
   width: 350px;
   padding: 20px;
@@ -32,7 +32,7 @@ body {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
-  border: 3px solid #007bff;
+  border: 3px solid #a71ea7;
   width: 150px;
   height: 150px;
 }
